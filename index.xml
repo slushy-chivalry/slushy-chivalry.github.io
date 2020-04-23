@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Math Blog</title>
+    <link>https://math.slushy-chivalry.github.io/</link>
+    <description>Recent content in Introduction on Math Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://math.slushy-chivalry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Partitions and Selectors</title>
+      <link>https://math.slushy-chivalry.github.io/posts/partitions-and-selectors/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://math.slushy-chivalry.github.io/posts/partitions-and-selectors/</guid>
+      <description>Look at this interesting stuff
+Let I be a finite set, X be another set
+I -&amp;gt; X is a selector function X -&amp;gt; I is a partition function
+for example, Let I = {0, 1}, X = N
+f: {0, 1} -&amp;gt; N selects two natural numbers g: N -&amp;gt; {0, 1} partitions N into two subsets
+now, what happenes if we categorify this notion
+I becomes a discrete category &amp;ndash; elements as objects, only identity morphisms X becomes a category of all sets</description>
+    </item>
+    
+  </channel>
+</rss>
