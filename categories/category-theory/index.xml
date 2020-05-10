@@ -18,7 +18,7 @@
       
       <guid>https://math.slushy-chivalry.github.io/posts/universal-algebra-nullary-operations/</guid>
       <description>Recall universal algebra approach to definining algebraic structures. Instead of explicitly stating existence of certain elements &amp;ndash; for exapmle, by designating a unit element in a group or associating an inverse &amp;ndash; we replace them with a collection of functions.
-With this in mind, if  \(A\) is a set, a unit element can be replaced with 0-arity function that chooses an element of \(A\) . An inverse is a 1-arity function \(A \rightarrow A\) .</description>
+With this in mind, if  \(A\) is a group, a unit element can be replaced with 0-arity function that chooses an element of \(A\) . An inverse is a 1-arity function \(A \rightarrow A\) .</description>
     </item>
     
     <item>
