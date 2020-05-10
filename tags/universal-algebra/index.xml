@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>category theory on Math Blog</title>
-    <link>https://math.slushy-chivalry.github.io/categories/category-theory/</link>
-    <description>Recent content in category theory on Math Blog</description>
+    <title>universal algebra on Math Blog</title>
+    <link>https://math.slushy-chivalry.github.io/tags/universal-algebra/</link>
+    <description>Recent content in universal algebra on Math Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://math.slushy-chivalry.github.io/categories/category-theory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://math.slushy-chivalry.github.io/tags/universal-algebra/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,21 +19,6 @@
       <guid>https://math.slushy-chivalry.github.io/posts/universal-algebra-nullary-operations/</guid>
       <description>Recall universal algebra approach to definining algebraic structures. Instead of explicitly stating existence of certain elements &amp;ndash; for exapmle, by designating a unit element in a group or associating an inverse &amp;ndash; we replace them with a collection of functions.
 With this in mind, if  \(A\) is a set, a unit element can be replaced with 0-arity function that chooses an element of \(A\) . An inverse is a 1-arity function \(A \rightarrow A\) .</description>
-    </item>
-    
-    <item>
-      <title>Partitions and Selectors</title>
-      <link>https://math.slushy-chivalry.github.io/posts/partitions-and-selectors/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://math.slushy-chivalry.github.io/posts/partitions-and-selectors/</guid>
-      <description>Look at this interesting stuff
-Let I be a finite set, X be another set
-I -&amp;gt; X is a selector function X -&amp;gt; I is a partition function
-for example, Let I = {0, 1}, X = N
-f: {0, 1} -&amp;gt; N selects two natural numbers g: N -&amp;gt; {0, 1} partitions N into two subsets
-now, what happenes if we categorify this notion
-I becomes a discrete category &amp;ndash; elements as objects, only identity morphisms X becomes a category of all sets</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Math Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://math.slushy-chivalry.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>universal algebra</title>
+      <link>https://math.slushy-chivalry.github.io/tags/universal-algebra/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://math.slushy-chivalry.github.io/tags/universal-algebra/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>functor categories</title>

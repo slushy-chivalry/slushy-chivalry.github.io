@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Recall universal algebra approach to definining algebraic structures. Instead of explicitly stating existence of certain elements &ndash; for exapmle, by designating a unit element in a group or associating an inverse &ndash; we replace them with a collection of functions.
+With this in mind, if  \(A\) is a set, a unit element can be replaced with 0-arity function that chooses an element of \(A\) . An inverse is a 1-arity function \(A \rightarrow A\) ."><meta property="og:title" content="Universal algebra nullary operations" />
+<meta property="og:description" content="Recall universal algebra approach to definining algebraic structures. Instead of explicitly stating existence of certain elements &ndash; for exapmle, by designating a unit element in a group or associating an inverse &ndash; we replace them with a collection of functions.
+With this in mind, if  \(A\) is a set, a unit element can be replaced with 0-arity function that chooses an element of \(A\) . An inverse is a 1-arity function \(A \rightarrow A\) ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://math.slushy-chivalry.github.io/posts/universal-algebra-nullary-operations/" />
+<meta property="article:published_time" content="2020-05-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-10T00:00:00+00:00" />
+<title>Universal algebra nullary operations | Math Blog</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
+<script defer src="/en.search.min.eb5a826fc2e8ad693a83029587ff40416a0387ecf36022b4046c550081deaa84.js" integrity="sha256-61qCb8LorWk6gwKVh/9AQWoDh&#43;zzYCK0BGxVAIHeqoQ="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Math Blog</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Universal algebra nullary operations</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents"></nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/universal-algebra-nullary-operations/">Universal algebra nullary operations</a>
+  </h1>
+  
+  <h5>May 10, 2020</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/category-theory/">category theory</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/universal-algebra/">universal algebra</a>
+  </div>
+  
+
+
+  <p><p>Recall universal algebra approach to definining algebraic
+structures. Instead of explicitly stating existence of certain
+elements &ndash; for exapmle, by designating a unit element in a group or
+associating an inverse &ndash; we replace them with a collection of
+functions.</p>
+<p>With this in mind, if 
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>\(A\)</span>
+ is a set, a unit
+element can be replaced with 0-arity function that chooses an element
+of <span>\(A\)</span>
+. An inverse is a 1-arity function <span>\(A \rightarrow A\)</span>
+.
+A group operation (e.g. product) is a 2-arity function <span>\(A \times A \rightarrow A\)</span>
+.
+And so on.</p>
+<p>Now on the other hand, a 0-arity function seems like a misnomer when
+thought of as number of arguments. If a function selects an element
+(e.g. a unit element), it can be associated with a function of a one
+element set <span>\(\{*\} \rightarrow A\)</span>
+ that maps that one element set to an
+element of <span>\(a\)</span>
+. So, as a function, it actually takes 1 argument, not
+zero.</p>
+<p>However, if we think of A as an object in the <span>\(\mathbb{Sets}\)</span>
+ category of sets,
+we can associate each n-ary universal algebra function with a projection morphism from a finite product
+of n copies of <span>\(a\)</span>
+. Treating an empty product (a nullary operation) as a terminal
+object in a category (which coincides with the definition of a terminal object via a limit of an empty diagram)
+we obtain our &ldquo;selector&rdquo; function <span>\(\{*\} \rightarrow A\)</span>
+. Pretty neat.</p>
+<p>What&rsquo;s even neater is that by replacing the category of sets with a category of, say, topological spaces,
+we can combine our universal algebra definition to obtain more sophisticated algebraic structures &ndash; in this
+case, since the morphisms are continuous, we obtain a definition of a topological group. And we only need
+to change the underlying category. Sweet.</p>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

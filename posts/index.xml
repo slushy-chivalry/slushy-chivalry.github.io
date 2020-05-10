@@ -6,10 +6,20 @@
     <description>Recent content in Blog on Math Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://math.slushy-chivalry.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Universal algebra nullary operations</title>
+      <link>https://math.slushy-chivalry.github.io/posts/universal-algebra-nullary-operations/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://math.slushy-chivalry.github.io/posts/universal-algebra-nullary-operations/</guid>
+      <description>Recall universal algebra approach to definining algebraic structures. Instead of explicitly stating existence of certain elements &amp;ndash; for exapmle, by designating a unit element in a group or associating an inverse &amp;ndash; we replace them with a collection of functions.
+With this in mind, if  \(A\) is a set, a unit element can be replaced with 0-arity function that chooses an element of \(A\) . An inverse is a 1-arity function \(A \rightarrow A\) .</description>
+    </item>
     
     <item>
       <title>Partitions and Selectors</title>
