@@ -6,7 +6,7 @@
     <description>Recent content in Blog on Math Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://math.slushy-chivalry.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Primitive recursion</title>
       <link>https://math.slushy-chivalry.github.io/posts/primitive-recursion/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://math.slushy-chivalry.github.io/posts/primitive-recursion/</guid>
       <description>Finding a primitive recursion representation of a given function  \(f\) can be reduced to finding functions \(g, h, k\) such that

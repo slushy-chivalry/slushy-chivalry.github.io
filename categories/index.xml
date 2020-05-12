@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Math Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://math.slushy-chivalry.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>type theory</title>
+      <link>https://math.slushy-chivalry.github.io/categories/type-theory/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://math.slushy-chivalry.github.io/categories/type-theory/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>category theory</title>
@@ -17,15 +26,6 @@
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://math.slushy-chivalry.github.io/categories/category-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>type theory</title>
-      <link>https://math.slushy-chivalry.github.io/categories/type-theory/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://math.slushy-chivalry.github.io/categories/type-theory/</guid>
       <description></description>
     </item>
     
