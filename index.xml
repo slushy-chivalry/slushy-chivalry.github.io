@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Primitive recursion</title>
+      <link>https://math.slushy-chivalry.github.io/posts/primitive-recursion/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://math.slushy-chivalry.github.io/posts/primitive-recursion/</guid>
+      <description>Finding a primitive recursion representation of a given function  \(f\) can be reduced to finding functions \(g, h, k\) such that
+ \(f(m,0) = g(m)\)  \(f(m,S(n)) = k(h(m,n), f(m,n))\)   where \(S: \mathbf{N} \rightarrow \mathbf{N}\) is a successor function turning a natural number into its successor (1 maps to 2, 2 maps to 3, and so on).
+The sought functions should be a composition of one of the following primitive functions:</description>
+    </item>
+    
+    <item>
       <title>Universal algebra nullary operations</title>
       <link>https://math.slushy-chivalry.github.io/posts/universal-algebra-nullary-operations/</link>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
